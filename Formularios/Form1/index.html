@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estiloform.css">
+    <title>Internet I - Elementos form</title>
+</head>
+
+<body>
+    <form method="post" name="form1" action="envia">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="">Nome: </label>
+            <input type="text" name="nome" size="30" required="required"><br>
+            <label for="">Endereço: </label>
+            <input type="text" name="endereco" size="25" required="required"><br>
+            <label for="">Cidade: </label>
+            <input type="text" name="cidade" size="25" required="required"><br>
+
+            <select name="estado" id="">
+                <option value="AC">Acre (AC) - Rio Branco</option>
+                <option value="AL">Alagoas (AL) - Maceió</option>
+                <option value="AP">Amapá (AP) - Macapá</option>
+                <option value="AM">Amazonas (AM) - Manaus</option>
+                <option value="BA">Bahia (BA) - Salvador</option>
+                <option value="CE">Ceará (CE) - Fortaleza</option>
+                <option value="DF">Distrito Federal (DF) - Brasília</option>
+                <option value="ES">Espírito Santo (ES) - Vitória</option>
+                <option value="GO">Goiás (GO) - Goiânia</option>
+                <option value="MA">Maranhão (MA) - São Luís</option>
+                <option value="MT">Mato Grosso (MT) - Cuiabá</option>
+                <option value="MS">Mato Grosso do Sul (MS) - Campo Grande</option>
+                <option value="MG">Minas Gerais (MG) - Belo Horizonte</option>
+                <option value="PA">Pará (PA) - Belém</option>
+                <option value="PB">Paraíba (PB) - João Pessoa</option>
+                <option value="PR">Paraná (PR) - Curitiba</option>
+                <option value="PI">Piauí (PI) - Teresina</option>
+                <option value="RJ">Rio de Janeiro (RJ) - Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte (RN) - Natal</option>
+                <option value="RS">Rio Grande do Sul (RS) - Porto Alegre</option>
+                <option value="RO">Rondônia (RO) - Porto Velho</option>
+                <option value="RR">Roraima (RR) - Boa Vista</option>
+                <option value="SC">Santa Catarina (SC) - Florianópolis</option>
+                <option value="SP">São Paulo (SP) - São Paulo</option>
+                <option value="SE">Sergipe (SE) - Aracaju</option>
+                <option value="TO">Tocantins (TO) - Palmas</option>
+            </select>
+
+            <input type="submit" name="envia" value="Enviar">
+            <input type="submit" name="limpar" value="Limpar">
+
+        </fieldset>
+
+
+    </form>
+</body>
+
+</html>
